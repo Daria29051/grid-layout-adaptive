@@ -36,10 +36,10 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
     grid-template-areas: 
-    "main main"
-    "main main"
-    "main main"
-    "main main"
+    "main-text main-text"
+    "main-text main-text"
+    "main-text main-text"
+    "main-text main-text"
     "more1 more2"
     "more3 more3";
     text-align: center;
@@ -65,6 +65,12 @@
     background-color: orange;
     border: 1px solid black;
     margin: 0.4em;   
+}
+
+
+.main-text {
+    grid-area: main-text;
+    justify-content: center;
 }
 
 .header {
